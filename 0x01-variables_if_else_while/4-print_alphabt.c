@@ -14,7 +14,11 @@ char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
 
 for (i = 0; i < 26; i++)
 {
-if (alphabets[i] != 'e' && alphabets[i] != 'q')
+if (alphabets[i] == 'e')
+    continue;
+else if (alphabets[i] == 'q')
+    continue;
+else
     putchar(alphabets[i]);
 }
 putchar('\n');
