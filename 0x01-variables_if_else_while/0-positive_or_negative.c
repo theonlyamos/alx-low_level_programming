@@ -4,9 +4,6 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-/* Main function
- * for running program
- */
 int main(void)
 {
 	int n;
@@ -24,3 +21,4 @@ int main(void)
 	}
 	return (0);
 }
+
