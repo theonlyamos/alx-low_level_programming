@@ -3,7 +3,7 @@
 
 /**
  * main - program to printout the alphabelts
- * in lower cases
+ * in lower cases except 'q' and 'e'
  *
  * Return: 0
  */
