@@ -4,7 +4,10 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
-int main(void) /* description for function main */
+/**
+ * Description for main function
+ */
+int main(void) 
 {
 	int n;
 
@@ -14,7 +17,7 @@ int main(void) /* description for function main */
 		printf("%d is zero\n", n);
 	else if (n < 0)
 		printf("%d is negative\n", n);
-	else 
+	else
 		printf("%d is positive\n", n);
 	return (0);
 }
