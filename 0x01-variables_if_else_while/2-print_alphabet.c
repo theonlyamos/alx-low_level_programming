@@ -11,7 +11,7 @@ int main(void)
 {
 	int i;
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyz";
-	
+
 	for (i = 0; i < 27; i++)
 		putchar(alphabets[i]);
 	putchar('\n');
