@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * Description for main function
+ * main - function for running main program
  */
 int main(void) 
 {
