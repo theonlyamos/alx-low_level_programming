@@ -5,7 +5,9 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - function for running main program
+ * main - print whether n i zero, positive or negative
+ * 
+ * Return: 0 
  */
 int main(void) 
 {
