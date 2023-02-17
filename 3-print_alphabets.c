@@ -11,7 +11,7 @@ int main(void)
 {
 	int i;
 	char lowercases[] = "abcdefghijklmnopqrstuvwxyz";
-	char uppercases[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char uppercases[] = "ABCDEFGHIJKLMN0PQRSTUVWXYZ";
 
 	for (i = 0; i < 26; i++)
 		putchar(lowercases[i]);
